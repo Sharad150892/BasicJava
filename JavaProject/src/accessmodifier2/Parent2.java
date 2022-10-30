@@ -13,7 +13,7 @@ public class Parent2 extends Parent1 {
 	public static void main(String[] args) {
 		Parent2 obj = new Parent2();
 		
-		System.out.println(obj.a);
+//		System.out.println(obj.a);
 		System.out.println(b);
 		obj.M1();
 		M1(34,false);

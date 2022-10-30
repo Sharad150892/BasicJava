@@ -12,9 +12,8 @@ public class PalindromebyInput {
 			int reverse=0, temp;
 			temp=num;
 			for(;num!=0; num/=10) {
-				
-				int digit = num%10;
-				reverse=reverse*10 + digit;
+		
+				reverse=reverse*10 + num%10;
 			}
 			if (temp==reverse)
 				System.out.println("Palindrome Number = "+reverse);

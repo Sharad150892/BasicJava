@@ -2,7 +2,7 @@ package accessmodifier1;
 
  public class Parent1 {
 	
-	 protected int a =100;
+	  int a =100;
 	
 	protected static int b=200;
 	 
@@ -10,7 +10,7 @@ package accessmodifier1;
 		 System.out.println("Static Method of parent 1 ");
 	 }
 	 
-	 public final void M1() {
+	 protected void M1() {
 		 System.out.println("Method of parent 1");
 	 }
 	 

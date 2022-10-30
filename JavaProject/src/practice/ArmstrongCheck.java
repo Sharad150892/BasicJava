@@ -4,7 +4,7 @@ public class ArmstrongCheck {
 	
 	
 	public static void main(String[] args) {
-		int a = 54748;
+		int a = 153;
 		int rem, result = 0;
 		int x=a, n=0;
 		

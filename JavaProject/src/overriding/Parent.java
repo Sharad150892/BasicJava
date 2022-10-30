@@ -8,5 +8,6 @@ public class Parent {
 	public void M1() {
 		System.out.println("Method of Parent");
 	}
+	
 
 }

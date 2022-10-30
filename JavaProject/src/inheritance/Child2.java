@@ -12,6 +12,7 @@ public class Child2 extends Child1 {
 		obj.Car();
 		obj.Farm();
 		obj.Laptop();
+		obj.Mobile();
 		
 	}
 }

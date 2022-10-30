@@ -22,7 +22,7 @@ public class Child extends Parent{
 		System.out.println("Method of Parent Table");
 		obj.M1();
 		System.out.println("Method of Parent Sum");
-		obj.M1(11);
+		obj.M1();
 		System.out.println("Static Method of Parent Alphabet");
 		M1(false);
 	}

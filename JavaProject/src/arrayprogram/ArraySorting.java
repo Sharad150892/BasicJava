@@ -8,7 +8,7 @@ public class ArraySorting {
 			
 		for(int i = 0; i<a.length; i++) {
 			for(int j = i+1; j<a.length; j++) {
-				if(a[i]<a[j]) {	     // for Ascending order:- > & for Descending Order:- <
+				if(a[i]>a[j]) {	     // for Ascending order:- > & for Descending Order:- <
 					int temp = a[i];
 					a[i]=a[j];
 					a[j]=temp;
@@ -17,7 +17,7 @@ public class ArraySorting {
 		}
 	
 		for(int i=0; i<a.length; i++)
-			System.out.print(a[i]+" ");
+			System.out.print(a[i]+", ");
 	}
 
 }

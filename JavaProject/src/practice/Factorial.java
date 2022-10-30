@@ -14,7 +14,7 @@ public static void main(String[] args) {
 	
 	}
 		System.out.printf("Factorial of %d = %d",num, factorial);
-
+//		System.out.println(factorial);
 }
 
 }

@@ -16,8 +16,8 @@ public class Child extends Parent{
 		obj.M1();
 		
 		
-		System.out.println(obj.a); // overriding is not possible for variable a
-		System.out.println(Parent.b);
+//		System.out.println(obj.a); // overriding is not possible for variable a
+//		System.out.println(Parent.b);
 	}
 
 }

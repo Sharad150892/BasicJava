@@ -7,7 +7,7 @@ public class ArraySecondLargest {
 	
 	public static void main(String[] args) {
 		
-		int ar[] = {12,333,4,12,445,43,6565,1245};
+		int ar[] = {100,90,94,80,70,94,100};	
 		
 		 TreeSet tr = new TreeSet();
 		
